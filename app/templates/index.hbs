@@ -1,0 +1,21 @@
+<div>
+<h1 class="thin">BUY SELL & SWAP YOUR FAVORITE SNEAKERS & ACCESSORIES</h1>
+<h3 class="thin">ALL DEALERS ARE BACKED BY A $1K BOND</h3>
+</div>
+<div class="divider"></div>
+<br>
+
+
+<div class="container">
+  <div class="row">
+     <div class="col s6 grey">This div is 6-columns wide</div>
+     <div class="col s6 grey">This div is 6-columns wide</div>
+  </div>
+</div>
+<div class="divider"></div>
+
+<ul>
+  {{#each model as |sneaks|}}
+     {{buy-tile sneaks=sneaks}}
+  {{/each}}
+</ul>

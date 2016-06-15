@@ -1,0 +1,28 @@
+<header>
+  <nav>
+     <div class="nav-wrapper black">
+       <a href="#" class="brand-logo text-blue lighten-5 thin">SNEAKS</a>
+       <ul id="nav-mobile" class="right hide-on-med-and-down thin">
+         <li>{{#link-to 'index'}}HOME{{/link-to}}</li>
+         <li>{{#link-to 'cart'}}CART{{/link-to}}</li>
+
+       </ul>
+     </div>
+   </nav>
+   <nav>
+      <div class="nav-wrapper black below">
+        <a href="#" class="brand-logo"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down thin">
+          <li>{{#link-to 'buy'}}BUY{{/link-to}}</li>
+          <li>{{#link-to 'sell'}}SELL{{/link-to}}</li>
+          <li>{{#link-to 'swap'}}SWAP{{/link-to}}</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      {{outlet}}
+    </div>
+  </main>
