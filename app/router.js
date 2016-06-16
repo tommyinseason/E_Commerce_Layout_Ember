@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('sell');
   this.route('swap');
   this.route('cart');
+  this.route('new-sneaks');
 });
 
 export default Router;

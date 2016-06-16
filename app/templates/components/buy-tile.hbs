@@ -1,2 +1,21 @@
-<li>{{sneaks.brand}} {{sneaks.style}}'s' Size {{sneaks.size}} {{sneaks.color}}
-</li>
+<div class="col m6">
+  <div class="card medium">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src={{sneaks.image}}>
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">{{sneaks.brand}} {{sneaks.style}}<i class="material-icons right">more_vert</i></span>
+     <p><a href="#">Size {{sneaks.size}} {{sneaks.condition}} {{sneaks.color}}</a></p>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">{{sneaks.brand}} {{sneaks.style}} Size{{sneaks.size}} {{sneaks.condition}} {{sneaks.color}} {{sneaks.price}} <i class="material-icons right">close</i>
+     </span>
+      <p>
+        <div class="chip">
+         {{sneaks.brand}}
+         <i class="material-icons">close</i>
+        </div>
+      </p>
+   </div>
+ </div>
+</div>
